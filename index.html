@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>p5.js Typescript Template</title>
+    <meta charset="UTF-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.scss" />
+  </head>
+
+  <body>
+    <div id="players">
+      <div class="player">
+        <input id="player-name" /><button id="join-btn">Join</button>
+      </div>
+      <div id="player-list"></div>
+    </div>
+
+    <div id="app"></div>
+    <script src="src/app.ts"></script>
+    <br />
+    <div id="messaanger">
+      <div id="messages"></div>
+
+      <div id="chat-form">
+        <p>Turbo giga czat</p>
+        <br />
+        <input type="text" id="new-chat-message" placeholder="Wiadomość..." />
+        <input type="submit" id="submit" />
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+  </body>
+</html>
